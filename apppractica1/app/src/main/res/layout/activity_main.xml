@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/orange"
+    tools:context=".MainActivity">
+
+   <androidx.appcompat.widget.AppCompatTextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textAlignment="center"
+       android:textSize="25dp"
+       android:textColor="@color/blanco"
+       android:layout_marginTop="40dp"
+       android:textStyle="bold"
+       android:fontFamily="casual"
+       android:text="Mi Primer App"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/images"/>
+
+   <androidx.appcompat.widget.AppCompatEditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Digite su nombre"
+       android:layout_marginLeft="15dp"
+       android:layout_marginRight="15dp"/>
+
+   <androidx.appcompat.widget.AppCompatButton
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="CLIC ME"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="50dp"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
